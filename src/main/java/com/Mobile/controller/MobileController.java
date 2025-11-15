@@ -137,7 +137,7 @@ public class MobileController {
 	{
 	return ms.getexcep1(a);
 	}	
-	@GetMapping(value="/getexception2/{a}")
+	@GetMapping(value="/getgit/{a}")
 	public List<MobileEntity> getexcep2(@PathVariable String a) throws ColorNotFoundException
 	{
 	return ms.getexcep2(a);
@@ -163,6 +163,7 @@ public Integer getprime(@PathVariable Integer a) {
 		return a;
 	
 }
+
 
 }
 

@@ -42,7 +42,7 @@ public List<MobileEntity> getb3(Integer a);
 //@Query(value = "SELECT *FROM mobiledb.mobiletable WHERE barnd LIKE '%a_' ",nativeQuery=true)
 //public List<MobileEntity> getb4(String a);
 
-@Query(value = "SELECT e FROM MobileEntity e WHERE e.barnd LIKE in ('a%','s%','d%')")
+//@Query(value = "SELECT e FROM MobileEntity e WHERE e.barnd LIKE in ('a%','s%','d%')")
 //public List<MobileEntity> getb4(String  a);
 
 //@Query(value = "SELECT e FROM MobileEntity e WHERE e.barnd LIKE '%a'")
